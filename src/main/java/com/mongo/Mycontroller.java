@@ -14,6 +14,12 @@ public class Mycontroller {
     public ResponseEntity<?> loadMassage( ){
     return  new ResponseEntity<String>("Hi ", HttpStatus.ACCEPTED);
     }
+
+
+    @GetMapping("/loadAll")
+    public ResponseEntity<?> loadAllMassage( ){
+        return  new ResponseEntity<String>("Load All Api called ", HttpStatus.ACCEPTED);
+    }
 }
 
 
