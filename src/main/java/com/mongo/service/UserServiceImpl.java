@@ -5,4 +5,8 @@ public class UserServiceImpl implements UserService{
     public String loadUser() {
         return " UserName: abkhuddus , pwd : Abkhuddus@Uzma4";
     }
+
+    public String loadAllusers(){
+        return "load all Users Service";
+    }
 }
