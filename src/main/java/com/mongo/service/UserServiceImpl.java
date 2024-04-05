@@ -9,4 +9,10 @@ public class UserServiceImpl implements UserService{
     public String loadAllusers(){
         return "load all Users Service";
     }
+
+    public String thridBranch() {
+
+        return "this is third branch code";
+    }
 }
+
